@@ -1,0 +1,17 @@
+.container {
+  font-family: monospace;
+  box-sizing: border-box;
+  background-color: rgb(245, 241, 241);
+  padding: 1.5em;
+  border-radius: 10px;
+  height: 100dvh;
+}
+
+/* .titleContainer {
+  border: 1px solid tomato;
+} */
+
+.counter {
+  /* color: red; */
+  margin: 0 auto 10px;
+}

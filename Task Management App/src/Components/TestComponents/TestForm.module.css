@@ -1,0 +1,39 @@
+.formContainer {
+  box-sizing: border-box;
+  background-color: #fff;
+  /* border: 1px solid tomato; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px hsla(0, 0%, 55%, 0.735);
+}
+
+.form {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.inputField {
+  display: block;
+  border: none;
+  width: 100%;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.submitButton {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.25em;
+  outline: 1.5px dotted #000;
+  background-color: none;
+}
+
+.submitButton:hover {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+}
